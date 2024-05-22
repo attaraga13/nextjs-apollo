@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "chmod 700 run;./run;next dev",
+    "build": "chmod 700 run;./run;next build",
+    "start": "chmod 700 run;./run;next start"
   },
   "dependencies": {
     "@apollo/client": "^3.2.5",
